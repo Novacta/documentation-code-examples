@@ -1,0 +1,76 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Operating on integer arrays</title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="4c3871a5-d7c6-477c-96ee-e71f0a67f7a8" /><meta name="Description" content="Class T:SampleClassLibrary.Advanced.IntegerArrayOperation provides method M:SampleClassLibrary.Advanced.IntegerArrayOperation.Operate(System.Func{System.Int32,System.Int32},System.Int32[]) to manage operations on integer values." /><meta name="Microsoft.Help.ContentType" content="Concepts" /><meta name="BrandingAware" content="true" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script><script type="text/javascript" src="../scripts/clipboard.min.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">SampleClassLibrary Documentation<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html\3df11b4d-ed21-48e5-8eb5-a1f6cf79c534.htm" title="SampleClassLibrary Documentation" tocid="roottoc">SampleClassLibrary Documentation</a></div><div class="toclevel1" data-toclevel="1"><a data-tochassubtree="false" href="../html/3df11b4d-ed21-48e5-8eb5-a1f6cf79c534.htm" title="Welcome" tocid="3df11b4d-ed21-48e5-8eb5-a1f6cf79c534">Welcome</a></div><div class="toclevel1" data-toclevel="1"><a data-tochassubtree="false" href="../html/b10d4d75-3729-4247-a58a-b9e5b6e4bb4d.htm" title="Operating on integers" tocid="b10d4d75-3729-4247-a58a-b9e5b6e4bb4d">Operating on integers</a></div><div class="toclevel1 current" data-toclevel="1"><a data-tochassubtree="false" href="../html/4c3871a5-d7c6-477c-96ee-e71f0a67f7a8.htm" title="Operating on integer arrays" tocid="4c3871a5-d7c6-477c-96ee-e71f0a67f7a8">Operating on integer arrays</a></div><div class="toclevel1" data-toclevel="1"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/c711650b-cb39-4fce-8938-885a71d52e6f.htm" title="Version History" tocid="c711650b-cb39-4fce-8938-885a71d52e6f">Version History</a></div><div class="toclevel1" data-toclevel="1"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/N_SampleClassLibrary.htm" title="SampleClassLibrary" tocid="N_SampleClassLibrary">SampleClassLibrary</a></div><div class="toclevel1" data-toclevel="1"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/N_SampleClassLibrary_Advanced.htm" title="SampleClassLibrary.Advanced" tocid="N_SampleClassLibrary_Advanced">SampleClassLibrary.Advanced</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="logoColumn"><img src="../icons/Help.png" /></td><td class="titleColumn"><h1>Operating on integer arrays</h1></td></tr></table><span class="introStyle"></span> <div class="introduction"><p>
+        Class <a href="T_SampleClassLibrary_Advanced_IntegerArrayOperation.htm">IntegerArrayOperation</a> provides method
+        <a href="M_SampleClassLibrary_Advanced_IntegerArrayOperation_Operate.htm">Operate</a>
+        to manage operations on integer values.
+      </p><p>
+        In the following example, an integer is squared
+        executing the <a href="M_SampleClassLibrary_Advanced_IntegerArrayOperation_Operate.htm">Operate</a> method.
+        In addition, input validation is also checked.
+      </p><p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAAACAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAACAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> System;
+<span class="highlight-keyword">using</span> SampleClassLibrary.Advanced;
+
+<span class="highlight-keyword">namespace</span> SampleClassLibrary.CodeExamples.Advanced
+{
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> IntegerArrayOperationExample  
+    {
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> Main()
+        {
+            <span class="highlight-comment">// Define an operator that squares its operand</span>
+            Func&lt;<span class="highlight-keyword">int</span>, <span class="highlight-keyword">int</span>&gt; square = (<span class="highlight-keyword">int</span> operand) =&gt; operand * operand;
+
+            <span class="highlight-comment">// Define an array of operands</span>
+            <span class="highlight-keyword">int</span>[] operands = <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[<span class="highlight-number">3</span>] { <span class="highlight-number">2</span>, <span class="highlight-number">4</span>, <span class="highlight-number">8</span> };
+
+            <span class="highlight-comment">// Operate on it</span>
+            <span class="highlight-keyword">int</span>[] results = IntegerArrayOperation.Operate(square, operands);
+
+            <span class="highlight-comment">// Show results</span>
+            <span class="highlight-keyword">for</span> (<span class="highlight-keyword">int</span> i = <span class="highlight-number">0</span>; i &lt; results.Length; i++)
+            {
+                Console.WriteLine(
+                    <span class="highlight-literal">"The result of squaring {0} is {1}."</span>,
+                    operands[i],
+                    results[i]);
+            }
+
+            <span class="highlight-comment">// Check that an operator cannot be null</span>
+            <span class="highlight-keyword">try</span>
+            {
+                IntegerArrayOperation.Operate(<span class="highlight-keyword">null</span>, <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[<span class="highlight-number">1</span>]);
+            }
+            <span class="highlight-keyword">catch</span> (Exception e)
+            {
+                Console.WriteLine();
+                Console.WriteLine(<span class="highlight-literal">"Cannot apply a null function:"</span>);
+                Console.WriteLine(e.Message);
+            }
+
+            <span class="highlight-comment">// Check that an array of operands cannot be null</span>
+            <span class="highlight-keyword">try</span>
+            {
+                IntegerArrayOperation.Operate(square, <span class="highlight-keyword">null</span>);
+            }
+            <span class="highlight-keyword">catch</span> (Exception e)
+            {
+                Console.WriteLine();
+                Console.WriteLine(<span class="highlight-literal">"Cannot apply a function to a null array:"</span>);
+                Console.WriteLine(e.Message);
+            }
+
+        }
+    }
+}
+
+<span class="highlight-comment">// Executing method Main() produces the following output:</span>
+<span class="highlight-comment">// </span>
+<span class="highlight-comment">// The result of squaring 2 is 4.</span>
+<span class="highlight-comment">// The result of squaring 4 is 16.</span>
+<span class="highlight-comment">// The result of squaring 8 is 64.</span>
+<span class="highlight-comment">// </span>
+<span class="highlight-comment">// Cannot apply a null function:</span>
+<span class="highlight-comment">// Value cannot be null.</span>
+<span class="highlight-comment">// Parameter name: func</span>
+<span class="highlight-comment">// </span>
+<span class="highlight-comment">// Cannot apply a function to a null array:</span>
+<span class="highlight-comment">// Value cannot be null.</span>
+<span class="highlight-comment">// Parameter name: operands</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAACAAA");</script></p></div></div></div><div id="pageFooter" class="pageFooter" /></body></html>

@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.0\SampleClassLibrary.CodeExamples.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netcoreapp2.0\SampleClassLibrary.CodeExamples.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Advanced\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Novacta.Documentation.CodeExamples" Version="0.1.0-CI-20180417-055157" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SampleClassLibrary\SampleClassLibrary.csproj" />
+  </ItemGroup>
+
+</Project>

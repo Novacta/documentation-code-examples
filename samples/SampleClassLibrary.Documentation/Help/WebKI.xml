@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="IntegerArrayOperation class">
+    <HelpKINode Title="IntegerArrayOperation Class" Url="html/T_SampleClassLibrary_Advanced_IntegerArrayOperation.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SampleClassLibrary_Advanced_IntegerArrayOperation.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IntegerArrayOperation.Operate method" Url="html/M_SampleClassLibrary_Advanced_IntegerArrayOperation_Operate.htm" />
+  <HelpKINode Title="IntegerOperation class">
+    <HelpKINode Title="IntegerOperation Class" Url="html/T_SampleClassLibrary_IntegerOperation.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SampleClassLibrary_IntegerOperation.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IntegerOperation.Operate method" Url="html/M_SampleClassLibrary_IntegerOperation_Operate.htm" />
+  <HelpKINode Title="Operate method">
+    <HelpKINode Title="IntegerArrayOperation.Operate Method " Url="html/M_SampleClassLibrary_Advanced_IntegerArrayOperation_Operate.htm" />
+    <HelpKINode Title="IntegerOperation.Operate Method " Url="html/M_SampleClassLibrary_IntegerOperation_Operate.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SampleClassLibrary namespace" Url="html/N_SampleClassLibrary.htm" />
+  <HelpKINode Title="SampleClassLibrary.Advanced namespace" Url="html/N_SampleClassLibrary_Advanced.htm" />
+  <HelpKINode Title="SampleClassLibrary.Advanced.IntegerArrayOperation class" Url="html/T_SampleClassLibrary_Advanced_IntegerArrayOperation.htm" />
+  <HelpKINode Title="SampleClassLibrary.IntegerOperation class" Url="html/T_SampleClassLibrary_IntegerOperation.htm" />
+  <HelpKINode Title="version">
+    <HelpKINode Title="1.0.0.0" Url="html/a6fc421b-f7f2-4b02-a2e2-d703be7ebaa4.htm" />
+    <HelpKINode Title="history" Url="html/c711650b-cb39-4fce-8938-885a71d52e6f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Welcome" Url="html/3df11b4d-ed21-48e5-8eb5-a1f6cf79c534.htm" />
+</HelpKI>

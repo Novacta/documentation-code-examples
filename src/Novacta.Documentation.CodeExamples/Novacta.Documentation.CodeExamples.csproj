@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Giovanni Lafratta</Authors>
+    <Company>Novacta</Company>
+    <Description>This package provides provides support for managing code examples in documentation files.
+
+Code examples can be defined in a console application, checked for successful execution, and their console outputs automatically captured and included in the documentation.</Description>
+    <Copyright>Copyright © 2018, Giovanni Lafratta, All Rights Reserved.</Copyright>
+    <PackageLicenseUrl>http://novacta.github.io/documentation-code-examples/html/0ac093c3-eee0-4598-b3cf-4cde672fc3ce.htm</PackageLicenseUrl>
+    <PackageReleaseNotes>Initial release of the package.</PackageReleaseNotes>
+    <PackageTags>Documentation comments, XML &lt;code&gt; elements, Sandcastle, SHFB</PackageTags>
+    <RepositoryType>Git</RepositoryType>
+    <RepositoryUrl>https://github.com/Novacta/documentation-code-examples</RepositoryUrl>
+    <Version>1.0.0</Version>
+    <PackageProjectUrl>https://github.com/Novacta/documentation-code-examples</PackageProjectUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <DocumentationFile>bin\Debug\netstandard2.0\Novacta.Documentation.CodeExamples.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <DocumentationFile>bin\Release\netstandard2.0\Novacta.Documentation.CodeExamples.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <!--<ItemGroup>
+    --><!--targets--><!--
+    <Content Include="Novacta.Documentation.CodeExamples.targets">
+      <PackagePath>build/netstandard2.0/Novacta.Documentation.CodeExamples.targets</PackagePath>
+      <Pack>true</Pack>
+    </Content>
+    --><!--Analyzer--><!--
+    <Content Include="../Novacta.Documentation.CodeExamples.Analyzer/bin/release/netcoreapp2.0/Novacta.Documentation.CodeExamples.Analyzer.dll">
+      <PackagePath>tools/netcoreapp2.0/Novacta.Documentation.CodeExamples.Analyzer.dll</PackagePath>
+      <Pack>true</Pack>
+    </Content>
+    <Content Include="../Novacta.Documentation.CodeExamples.Analyzer/bin/release/netcoreapp2.0/Novacta.Documentation.CodeExamples.Analyzer.runtimeconfig.json">
+      <PackagePath>tools/netcoreapp2.0/Novacta.Documentation.CodeExamples.Analyzer.runtimeconfig.json</PackagePath>
+      <Pack>true</Pack>
+    </Content>
+    <Content Include="bin/release/netstandard2.0/Novacta.Documentation.CodeExamples.dll">
+      <PackagePath>tools/netcoreapp2.0/Novacta.Documentation.CodeExamples.dll</PackagePath>
+      <Pack>true</Pack>
+    </Content>
+  </ItemGroup>-->
+</Project>

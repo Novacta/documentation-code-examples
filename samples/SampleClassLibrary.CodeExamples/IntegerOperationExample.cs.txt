@@ -1,0 +1,41 @@
+using System;
+namespace SampleClassLibrary.CodeExamples
+{
+    public class IntegerOperationExample  
+    {
+        public void Main() 
+        {
+            // Define an operator that squares its operand
+            Func<int, int> square = (int operand) => operand * operand;
+
+            // Define an operand
+            int integer = 2;
+
+            // Operate on it
+            Console.WriteLine("Squaring {0}...", integer);
+            int result = IntegerOperation.Operate(square, integer);
+            Console.WriteLine("...the result is {0}.", result);
+
+            // Check that an operator cannot be null
+            try
+            {
+                IntegerOperation.Operate(null, 0);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine();
+                Console.WriteLine("Cannot apply a null function:");
+                Console.WriteLine(e.Message);
+            }
+        }
+    }
+}
+
+// Executing method Main() produces the following output:
+// 
+// Squaring 2...
+// ...the result is 4.
+// 
+// Cannot apply a null function:
+// Value cannot be null.
+// Parameter name: func

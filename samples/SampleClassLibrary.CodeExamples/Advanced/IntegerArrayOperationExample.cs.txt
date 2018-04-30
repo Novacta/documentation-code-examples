@@ -1,0 +1,68 @@
+using System;
+using SampleClassLibrary.Advanced;
+
+namespace SampleClassLibrary.CodeExamples.Advanced
+{
+    public class IntegerArrayOperationExample  
+    {
+        public void Main()
+        {
+            // Define an operator that squares its operand
+            Func<int, int> square = (int operand) => operand * operand;
+
+            // Define an array of operands
+            int[] operands = new int[3] { 2, 4, 8 };
+
+            // Operate on it
+            int[] results = IntegerArrayOperation.Operate(square, operands);
+
+            // Show results
+            for (int i = 0; i < results.Length; i++)
+            {
+                Console.WriteLine(
+                    "The result of squaring {0} is {1}.",
+                    operands[i],
+                    results[i]);
+            }
+           
+            // Check that an operator cannot be null
+            try
+            {
+                IntegerArrayOperation.Operate(null, new int[1]);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine();
+                Console.WriteLine("Cannot apply a null function:");
+                Console.WriteLine(e.Message);
+            }
+
+            // Check that an array of operands cannot be null
+            try
+            {
+                IntegerArrayOperation.Operate(square, null);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine();
+                Console.WriteLine("Cannot apply a function to a null array:");
+                Console.WriteLine(e.Message);
+            }
+
+        }
+    }
+}
+
+// Executing method Main() produces the following output:
+// 
+// The result of squaring 2 is 4.
+// The result of squaring 4 is 16.
+// The result of squaring 8 is 64.
+// 
+// Cannot apply a null function:
+// Value cannot be null.
+// Parameter name: func
+// 
+// Cannot apply a function to a null array:
+// Value cannot be null.
+// Parameter name: operands

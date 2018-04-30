@@ -1,0 +1,357 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Tutorial</title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="6b796d28-afa6-4b66-9fe7-b29258b921ed" /><meta name="Description" content="The instructions on this page are based on sample code that demonstrates how to define code examples, check for their successful execution, and generate text files containing both the examples' source code and their console outputs." /><meta name="Microsoft.Help.ContentType" content="Concepts" /><meta name="BrandingAware" content="true" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script><script type="text/javascript" src="../scripts/clipboard.min.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Novacta.Documentation.CodeExamples Documentation<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html\5867159b-361b-4138-a5b9-0dec7dc0e363.htm" title="Novacta.Documentation.CodeExamples Documentation" tocid="roottoc">Novacta.Documentation.CodeExamples Documentation</a></div><div class="toclevel1" data-toclevel="1"><a data-tochassubtree="false" href="../html/5867159b-361b-4138-a5b9-0dec7dc0e363.htm" title="Welcome" tocid="5867159b-361b-4138-a5b9-0dec7dc0e363">Welcome</a></div><div class="toclevel1" data-toclevel="1"><a data-tochassubtree="false" href="../html/0ac093c3-eee0-4598-b3cf-4cde672fc3ce.htm" title="License agreement" tocid="0ac093c3-eee0-4598-b3cf-4cde672fc3ce">License agreement</a></div><div class="toclevel1 current" data-toclevel="1"><a data-tochassubtree="false" href="../html/6b796d28-afa6-4b66-9fe7-b29258b921ed.htm" title="Tutorial" tocid="6b796d28-afa6-4b66-9fe7-b29258b921ed">Tutorial</a></div><div class="toclevel1" data-toclevel="1"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/20fad4a8-5a47-4c4d-b6cf-ece1a11b167e.htm" title="Version History" tocid="20fad4a8-5a47-4c4d-b6cf-ece1a11b167e">Version History</a></div><div class="toclevel1" data-toclevel="1"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/N_Novacta_Documentation_CodeExamples.htm" title="Novacta.Documentation.CodeExamples" tocid="N_Novacta_Documentation_CodeExamples">Novacta.Documentation.CodeExamples</a></div><div class="toclevel1" data-toclevel="1"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/G_SampleClassLibrary.htm" title="SampleClassLibrary Namespaces" tocid="G_SampleClassLibrary">SampleClassLibrary Namespaces</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="logoColumn"><img src="../icons/Help.png" /></td><td class="titleColumn"><h1>Tutorial</h1></td></tr></table><span class="introStyle"></span> <div class="introduction"><p>
+        The instructions on this page are based on sample code that
+        demonstrates how to define code examples,
+        check for their successful execution, and generate text files
+        containing both the examples' source code and their console outputs.
+        Finally, it is showed how such text files can be exploited as the source
+        of a
+        <a href="http://ewsoftware.github.io/XMLCommentsGuide/html/1abd1992-e3d0-45b4-b43d-91fcfc5e5574.htm" target="_blank">code</a> element in XML comments documenting a sample library.
+      </p><p>
+        The sample describing the intended work-flow for documenting by
+        code examples is located
+        <a href="https://github.com/novacta/documentation-code-examples/blob/master/samples" target="_blank">here</a>.
+        <p>
+          It includes what follows.
+        </p></p><ul><li><p>
+            Project
+            <a href="https://github.com/novacta/documentation-code-examples/blob/master/samples/SampleClassLibrary" target="_blank">SampleClassLibrary</a>,
+            containing some code to be exemplified. The code is documented
+            through XML comments including code examples generated
+            via the
+            <strong>Novacta.Documentation.CodeExamples</strong>
+            library.
+          </p></li><li><p>
+            Project
+            <a href="https://github.com/novacta/documentation-code-examples/blob/master/samples/SampleClassLibrary.CodeExamples" target="_blank">SampleClassLibrary.CodeExamples</a>,
+            a console application in which the code examples are defined.
+            Note that this project references both
+            <strong>SampleClassLibrary</strong>
+            and <strong>Novacta.Documentation.CodeExamples</strong>.
+          </p></li><li><p>
+            Project
+            <a href="https://github.com/novacta/documentation-code-examples/blob/master/samples/SampleClassLibrary.Documentation" target="_blank">SampleClassLibrary.Documentation</a>,
+            that generates the documentation for
+            <strong>SampleClassLibrary</strong>
+            exploiting the code examples.
+            This last project can be successfully loaded by installing the
+            <a href="https://github.com/EWSoftware/SHFB" target="_blank">Sandcastle Help File Builder</a>.
+          </p></li></ul></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Develop the code to be documented by examples</span></div><div id="ID1RBSection" class="collapsibleSection"><p>
+          In this tutorial, project
+          <a href="https://github.com/novacta/documentation-code-examples/blob/master/samples/SampleClassLibrary" target="_blank">SampleClassLibrary</a>
+          contains the code that needs to be documented by examples.
+          For instance, it includes class
+          <a href="T_SampleClassLibrary_Advanced_IntegerArrayOperation.htm">IntegerArrayOperation</a>.
+          The source code of this type is the following.
+        </p><p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAACACAAA_tab1" class="codeSnippetContainerTabSingle">SampleClassLibrary\Advanced\IntegerArrayOperation.cs</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAACACAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAACACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAACACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> System;
+
+<span class="highlight-keyword">namespace</span> SampleClassLibrary.Advanced
+{
+    <span class="highlight-comment">/// &lt;summary&gt;</span>
+    <span class="highlight-comment">/// Provides a method to operate on arrays of integers.</span>
+    <span class="highlight-comment">/// &lt;/summary&gt;</span>
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">static</span> <span class="highlight-keyword">class</span> IntegerArrayOperation
+    {
+        <span class="highlight-comment">/// &lt;summary&gt;</span>
+        <span class="highlight-comment">/// Applies the specified function to the given array of operands.</span>
+        <span class="highlight-comment">/// &lt;/summary&gt;</span>
+        <span class="highlight-comment">/// &lt;param name="func"&gt;The function to evaluate at each operand.&lt;/param&gt;</span>
+        <span class="highlight-comment">/// &lt;param name="operands"&gt;The array of operands.&lt;/param&gt;</span>
+        <span class="highlight-comment">/// &lt;returns&gt;The results of the operations.&lt;/returns&gt;</span>
+        <span class="highlight-comment">/// &lt;exception cref="ArgumentNullException"&gt;</span>
+        <span class="highlight-comment">/// &lt;paramref name="func"/&gt; is &lt;b&gt;null&lt;/b&gt;.&lt;br/&gt;</span>
+        <span class="highlight-comment">/// -or-&lt;br/&gt;</span>
+        <span class="highlight-comment">/// &lt;paramref name="operands"/&gt; is &lt;b&gt;null&lt;/b&gt;.</span>
+        <span class="highlight-comment">/// &lt;/exception&gt;</span>
+        <span class="highlight-comment">/// &lt;example&gt;</span>
+        <span class="highlight-comment">/// &lt;para&gt;</span>
+        <span class="highlight-comment">/// In the following example, integers in a given array are squared </span>
+        <span class="highlight-comment">/// executing the &lt;see cref="Operate(Func{int, int}, int[])"/&gt; method.</span>
+        <span class="highlight-comment">/// In addition, input validation is also checked.</span>
+        <span class="highlight-comment">/// &lt;/para&gt;</span>
+        <span class="highlight-comment">/// &lt;para&gt;</span>
+        <span class="highlight-comment">/// &lt;code </span>
+        <span class="highlight-comment">/// language="cs" </span>
+        <span class="highlight-comment">/// source="..\SampleClassLibrary.CodeExamples\Advanced\IntegerArrayOperationExample.cs.txt"/&gt;</span>
+        <span class="highlight-comment">/// &lt;/para&gt;</span>
+        <span class="highlight-comment">/// &lt;/example&gt;</span>
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">static</span> <span class="highlight-keyword">int</span>[] Operate(Func&lt;<span class="highlight-keyword">int</span>, <span class="highlight-keyword">int</span>&gt; func, <span class="highlight-keyword">int</span>[] operands)
+        {
+            <span class="highlight-keyword">if</span> (func == <span class="highlight-keyword">null</span>)
+            {
+                <span class="highlight-keyword">throw</span> <span class="highlight-keyword">new</span> ArgumentNullException(nameof(func));
+            }
+            <span class="highlight-keyword">if</span> (operands == <span class="highlight-keyword">null</span>)
+            {
+                <span class="highlight-keyword">throw</span> <span class="highlight-keyword">new</span> ArgumentNullException(nameof(operands));
+            }
+
+            <span class="highlight-keyword">int</span>[] result = <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[operands.Length];
+            <span class="highlight-keyword">for</span> (<span class="highlight-keyword">int</span> i = <span class="highlight-number">0</span>; i &lt; result.Length; i++)
+            {
+                result[i] = IntegerOperation.Operate(func, operands[i]);
+            }
+            <span class="highlight-keyword">return</span> result;
+        }
+    }
+
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAACACAAA");</script></p><p>
+          Here method
+          <a href="M_SampleClassLibrary_Advanced_IntegerArrayOperation_Operate.htm">Operate</a>
+          is documented
+          through XML comments. Such comments include a code example,
+          defined through the XML element
+          <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAABACAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAABACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAABACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-xml-bracket">&lt;</span><span class="highlight-xml-tag">code</span> 
+<span class="highlight-xml-attribute-name">language</span><span class="highlight-xml-attribute-equal">=</span><span class="highlight-xml-attribute-value">"cs"</span> 
+<span class="highlight-xml-attribute-name">source</span><span class="highlight-xml-attribute-equal">=</span><span class="highlight-xml-attribute-value">"..\SampleClassLibrary.CodeExamples\Advanced\IntegerArrayOperationExample.cs.txt"</span><span class="highlight-xml-bracket">/&gt;</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAABACAAA");</script></p><p>
+          Note how its
+          
+                source
+                 attribute is set to the path of a text file.
+          In subsequent steps, you will learn how to generate such file
+          via the
+          <strong>Novacta.Documentation.CodeExamples</strong>
+          library.
+        </p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Define code examples</span></div><div id="ID2RBSection" class="collapsibleSection"><h4 class="subHeading">Create a console application</h4><div class="subsection"><p /><p>
+              Code examples must be defined in a console application supporting the
+              <a href="https://github.com/dotnet/standard/blob/master/docs/versions/netstandard2.0.md" target="_blank">.NET Standard, version 2.0</a>. In this tutorial, such application is represented
+              by project
+              <a href="https://github.com/novacta/documentation-code-examples/blob/master/samples/SampleClassLibrary.CodeExamples" target="_blank">SampleClassLibrary.CodeExamples</a>.
+            </p><p>
+              Add to your console project a reference to
+              the Novacta.Documentation.CodeExamples
+              <a href="https://www.nuget.org/packages/Novacta.Documentation.CodeExamples" target="_blank">NuGet package</a>, and a reference to the project
+              containing the code to be exemplified.
+              In this tutorial, this is
+              <a href="https://github.com/novacta/documentation-code-examples/blob/master/samples/SampleClassLibrary" target="_blank">SampleClassLibrary</a>.
+            </p></div><h4 class="subHeading">Define your code examples</h4><div class="subsection"><p /><p>
+              Create a new example by defining a class that implements the
+              <a href="T_Novacta_Documentation_CodeExamples_ICodeExample.htm">ICodeExample</a>
+              interface.
+              This is equivalent to implement method
+              <a href="M_Novacta_Documentation_CodeExamples_ICodeExample_Main.htm">Main</a>,
+              that has no parameters and returns void.
+            </p><p>
+              Inside the body of such method, add the code you want exemplified.
+              Use class
+              <a href="http://msdn2.microsoft.com/en-us/library/43zwz7ys" target="_blank">System<span id="LSTBEFDFBC5_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBEFDFBC5_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Console</a>
+              to output the desired content for the
+              example.
+            </p><p>
+              For instance, the following class define an example
+              for type
+              <a href="T_SampleClassLibrary_Advanced_IntegerArrayOperation.htm">SampleClassLibrary.Advanced<span id="LSTBEFDFBC5_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBEFDFBC5_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>IntegerArrayOperation</a>.
+            </p><p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAADABABAAA_tab1" class="codeSnippetContainerTabSingle">SampleClassLibrary.CodeExamples\Advanced\IntegerArrayOperationExample.cs</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAADABABAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAADABABAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAADABABAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> System;
+<span class="highlight-keyword">using</span> Novacta.Documentation.CodeExamples;
+<span class="highlight-keyword">using</span> SampleClassLibrary.Advanced;
+
+<span class="highlight-keyword">namespace</span> SampleClassLibrary.CodeExamples.Advanced
+{
+    <span class="highlight-comment">/// &lt;summary&gt;</span>
+    <span class="highlight-comment">/// An example showing how to exploit class &lt;see cref="IntegerArrayOperation"/&gt;.</span>
+    <span class="highlight-comment">/// &lt;/summary&gt;</span>
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> IntegerArrayOperationExample : ICodeExample
+    {
+        <span class="highlight-comment">/// &lt;summary&gt;</span>
+        <span class="highlight-comment">/// The method encapsulating the code to be exemplified.</span>
+        <span class="highlight-comment">/// &lt;/summary&gt;</span>
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> Main()
+        {
+            <span class="highlight-comment">// Define an operator that squares its operand</span>
+            Func&lt;<span class="highlight-keyword">int</span>, <span class="highlight-keyword">int</span>&gt; square = (<span class="highlight-keyword">int</span> operand) =&gt; operand * operand;
+
+            <span class="highlight-comment">// Define an array of operands</span>
+            <span class="highlight-keyword">int</span>[] operands = <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[<span class="highlight-number">3</span>] { <span class="highlight-number">2</span>, <span class="highlight-number">4</span>, <span class="highlight-number">8</span> };
+
+            <span class="highlight-comment">// Operate on it</span>
+            <span class="highlight-keyword">int</span>[] results = IntegerArrayOperation.Operate(square, operands);
+
+            <span class="highlight-comment">// Show results</span>
+            <span class="highlight-keyword">for</span> (<span class="highlight-keyword">int</span> i = <span class="highlight-number">0</span>; i &lt; results.Length; i++)
+            {
+                Console.WriteLine(
+                    <span class="highlight-literal">"The result of squaring {0} is {1}."</span>,
+                    operands[i],
+                    results[i]);
+            }
+
+            <span class="highlight-comment">// Check that an operator cannot be null</span>
+            <span class="highlight-keyword">try</span>
+            {
+                IntegerArrayOperation.Operate(<span class="highlight-keyword">null</span>, <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[<span class="highlight-number">1</span>]);
+            }
+            <span class="highlight-keyword">catch</span> (Exception e)
+            {
+                Console.WriteLine();
+                Console.WriteLine(<span class="highlight-literal">"Cannot apply a null function:"</span>);
+                Console.WriteLine(e.Message);
+            }
+
+            <span class="highlight-comment">// Check that an array of operands cannot be null</span>
+            <span class="highlight-keyword">try</span>
+            {
+                IntegerArrayOperation.Operate(square, <span class="highlight-keyword">null</span>);
+            }
+            <span class="highlight-keyword">catch</span> (Exception e)
+            {
+                Console.WriteLine();
+                Console.WriteLine(<span class="highlight-literal">"Cannot apply a function to a null array:"</span>);
+                Console.WriteLine(e.Message);
+            }
+
+        }
+    }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAADABABAAA");</script></p><p>
+              When the console application is executed, the console output
+              of such example will be automatically captured and inserted,
+              as a comment, in a text file also
+              containing the example's source code, as follows.
+            </p><p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAABABABAAA_tab1" class="codeSnippetContainerTabSingle">SampleClassLibrary.CodeExamples\Advanced\IntegerArrayOperationExample.cs.txt</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAABABABAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAABABABAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAABABABAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> System;
+<span class="highlight-keyword">using</span> SampleClassLibrary.Advanced;
+
+<span class="highlight-keyword">namespace</span> SampleClassLibrary.CodeExamples.Advanced
+{
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> IntegerArrayOperationExample  
+    {
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> Main()
+        {
+            <span class="highlight-comment">// Define an operator that squares its operand</span>
+            Func&lt;<span class="highlight-keyword">int</span>, <span class="highlight-keyword">int</span>&gt; square = (<span class="highlight-keyword">int</span> operand) =&gt; operand * operand;
+
+            <span class="highlight-comment">// Define an array of operands</span>
+            <span class="highlight-keyword">int</span>[] operands = <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[<span class="highlight-number">3</span>] { <span class="highlight-number">2</span>, <span class="highlight-number">4</span>, <span class="highlight-number">8</span> };
+
+            <span class="highlight-comment">// Operate on it</span>
+            <span class="highlight-keyword">int</span>[] results = IntegerArrayOperation.Operate(square, operands);
+
+            <span class="highlight-comment">// Show results</span>
+            <span class="highlight-keyword">for</span> (<span class="highlight-keyword">int</span> i = <span class="highlight-number">0</span>; i &lt; results.Length; i++)
+            {
+                Console.WriteLine(
+                    <span class="highlight-literal">"The result of squaring {0} is {1}."</span>,
+                    operands[i],
+                    results[i]);
+            }
+
+            <span class="highlight-comment">// Check that an operator cannot be null</span>
+            <span class="highlight-keyword">try</span>
+            {
+                IntegerArrayOperation.Operate(<span class="highlight-keyword">null</span>, <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[<span class="highlight-number">1</span>]);
+            }
+            <span class="highlight-keyword">catch</span> (Exception e)
+            {
+                Console.WriteLine();
+                Console.WriteLine(<span class="highlight-literal">"Cannot apply a null function:"</span>);
+                Console.WriteLine(e.Message);
+            }
+
+            <span class="highlight-comment">// Check that an array of operands cannot be null</span>
+            <span class="highlight-keyword">try</span>
+            {
+                IntegerArrayOperation.Operate(square, <span class="highlight-keyword">null</span>);
+            }
+            <span class="highlight-keyword">catch</span> (Exception e)
+            {
+                Console.WriteLine();
+                Console.WriteLine(<span class="highlight-literal">"Cannot apply a function to a null array:"</span>);
+                Console.WriteLine(e.Message);
+            }
+
+        }
+    }
+}
+
+<span class="highlight-comment">// Executing method Main() produces the following output:</span>
+<span class="highlight-comment">// </span>
+<span class="highlight-comment">// The result of squaring 2 is 4.</span>
+<span class="highlight-comment">// The result of squaring 4 is 16.</span>
+<span class="highlight-comment">// The result of squaring 8 is 64.</span>
+<span class="highlight-comment">// </span>
+<span class="highlight-comment">// Cannot apply a null function:</span>
+<span class="highlight-comment">// Value cannot be null.</span>
+<span class="highlight-comment">// Parameter name: func</span>
+<span class="highlight-comment">// </span>
+<span class="highlight-comment">// Cannot apply a function to a null array:</span>
+<span class="highlight-comment">// Value cannot be null.</span>
+<span class="highlight-comment">// Parameter name: operands</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAABABABAAA");</script></p><p>
+              This is the text file exploited as the source of the
+              
+                &lt;code&gt;
+                
+              element documenting method
+              <a href="M_SampleClassLibrary_Advanced_IntegerArrayOperation_Operate.htm">Operate</a>.
+              Note how the references to the
+              <a href="T_Novacta_Documentation_CodeExamples_ICodeExample.htm">ICodeExample</a>
+              interface and the
+              <a href="N_Novacta_Documentation_CodeExamples.htm">Novacta.Documentation.CodeExamples</a>
+              namespace are automatically deleted from the file.
+            </p></div><h4 class="subHeading">Execute code examples</h4><div class="subsection"><p /><p>
+              In your Program class, the implementation of method Main should
+              resemble what follows.
+            </p><p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAADAAABAAA_tab1" class="codeSnippetContainerTabSingle">SampleClassLibrary.CodeExamples\Program.cs</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAADAAABAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAADAAABAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAADAAABAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> Novacta.Documentation.CodeExamples;
+<span class="highlight-keyword">using</span> System;
+
+<span class="highlight-keyword">namespace</span> SampleClassLibrary.CodeExamples
+{
+    <span class="highlight-keyword">class</span> Program
+    {
+        <span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> Main(<span class="highlight-keyword">string</span>[] args)
+        {
+            <span class="highlight-keyword">string</span> codeBase = <span class="highlight-literal">@"..\..\..\..\SampleClassLibrary.CodeExamples"</span>;
+            <span class="highlight-keyword">string</span> defaultNamespace = <span class="highlight-literal">"SampleClassLibrary.CodeExamples"</span>;
+            <span class="highlight-keyword">var</span> analyzer = <span class="highlight-keyword">new</span> CodeExamplesAnalyzer(
+                codeBase,
+                defaultNamespace);
+            analyzer.Run();
+            Console.ReadKey();
+        }
+    }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAADAAABAAA");</script></p><p>
+              Such code instantiates an object of type
+              <a href="T_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer.htm">CodeExamplesAnalyzer</a> by passing to the constructor
+              two pieces of information:
+              the path of the folder containing the examples' source code files,
+              and the default namespace of the console application where
+              the examples are defined: these are returned by properties
+              <a href="P_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer_CodeBase.htm">CodeBase</a>
+              and
+              <a href="P_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer_DefaultNamespace.htm">DefaultNamespace</a>,
+              respectively.
+              Finally, method
+              <a href="M_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer_Run.htm">Run</a>
+              is executed.
+              This will look for code examples, execute them individually,
+              and capture their console outputs. It will also search for the
+              corresponding source code files, assuming that the following
+              conditions hold true.
+              <ul><li><p>
+                  Each type implementing
+                  <a href="T_Novacta_Documentation_CodeExamples_ICodeExample.htm">ICodeExample</a>
+                  is defined in a C# file
+                  named from the type name.
+                </p></li><li><p>
+                    Types in the
+                    <a href="P_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer_DefaultNamespace.htm">DefaultNamespace</a>
+                  have their source code files stored in the
+                  <a href="P_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer_CodeBase.htm">CodeBase</a>
+                    folder.
+                  </p></li><li><p>
+                    Source code files of types in nested namespaces are stored
+                    in a directory tree under the
+                    <a href="P_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer_CodeBase.htm">CodeBase</a>
+                    folder, reflecting the project namespace hierarchy.
+                  </p></li></ul></p><p>
+              If a code example is executed successfully and its source code
+              can be found, a text file is created that can be
+              used as the source of 
+                &lt;code&gt;
+                
+              XML elements in C# documentation comments.
+            </p><p>
+              When the application is executed, its console output
+              shows a report in which the examples are listed,
+              signaling if any source code file cannot be found,
+              or any execution is not successful.
+              For instance, by executing the sample application
+              defined in project
+            <a href="https://github.com/novacta/documentation-code-examples/blob/master/samples/SampleClassLibrary.CodeExamples" target="_blank">SampleClassLibrary.CodeExamples</a>, the following is reported.
+              <div class="mediaCenter"><img alt="console" src="../media/Console.png" /></div></p></div></div></div></div><div id="pageFooter" class="pageFooter"><p><a href="https://github.com/novacta/documentation-code-examples" target="_blank">Copyright © 2018, Giovanni Lafratta, All rights reserved</a></p></div></body></html>

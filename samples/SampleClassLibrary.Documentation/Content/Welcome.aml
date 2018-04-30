@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<topic id="3df11b4d-ed21-48e5-8eb5-a1f6cf79c534" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>
+        <legacyBold>SampleClassLibrary</legacyBold> is a .NET library that provides support
+        for operating on integers or on integer arrays.
+      </para>
+      <para>
+        The project targets all platforms implementing
+        the <externalLink>
+          <linkText>.NET Standard</linkText>
+          <linkUri>https://github.com/dotnet/standard</linkUri>
+        </externalLink>, version 2.0.
+      </para>
+    </introduction>
+    <section>
+      <title>
+        Documentation
+      </title>
+      <content>
+        <para>
+          The current documentation includes the following topics.
+        </para>
+        <para>
+          <list class="bullet">
+            <listItem>
+              <para>
+                <link xlink:href="a6fc421b-f7f2-4b02-a2e2-d703be7ebaa4">
+                  SampleClassLibrary release notes
+                </link>
+              </para>
+            </listItem>
+            <listItem>
+              <para>
+                <link xlink:href="b10d4d75-3729-4247-a58a-b9e5b6e4bb4d">
+                  Operating on integers
+                </link> walks you through operations on integers.
+              </para>
+            </listItem>
+            <listItem>
+              <para>
+                <link xlink:href="4c3871a5-d7c6-477c-96ee-e71f0a67f7a8">
+                  Operating on integer arrays
+                </link> describes how to operate on arrays of integers.
+              </para>
+            </listItem>
+            <listItem>
+              <para>
+                <codeEntityReference linkText="Library reference">
+                  N:SampleClassLibrary
+                </codeEntityReference>
+                contains reference information about library
+                types by namespace.
+              </para>
+            </listItem>
+          </list>
+        </para>
+      </content>
+    </section>
+
+    <relatedTopics>
+			<link xlink:href="c711650b-cb39-4fce-8938-885a71d52e6f" />
+		</relatedTopics>
+	</developerConceptualDocument>
+</topic>

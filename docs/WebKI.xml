@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="CodeBase property" Url="html/P_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer_CodeBase.htm" />
+  <HelpKINode Title="CodeExampleInfo class">
+    <HelpKINode Title="CodeExampleInfo Class" Url="html/T_Novacta_Documentation_CodeExamples_CodeExampleInfo.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Novacta_Documentation_CodeExamples_CodeExampleInfo__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Novacta_Documentation_CodeExamples_CodeExampleInfo.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Novacta_Documentation_CodeExamples_CodeExampleInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CodeExampleInfo.CodeExampleInfo constructor" Url="html/M_Novacta_Documentation_CodeExamples_CodeExampleInfo__ctor.htm" />
+  <HelpKINode Title="CodeExampleInfo.Error property" Url="html/P_Novacta_Documentation_CodeExamples_CodeExampleInfo_Error.htm" />
+  <HelpKINode Title="CodeExampleInfo.ExitCode property" Url="html/P_Novacta_Documentation_CodeExamples_CodeExampleInfo_ExitCode.htm" />
+  <HelpKINode Title="CodeExampleInfo.HasSourceCode property" Url="html/P_Novacta_Documentation_CodeExamples_CodeExampleInfo_HasSourceCode.htm" />
+  <HelpKINode Title="CodeExampleInfo.Language property" Url="html/P_Novacta_Documentation_CodeExamples_CodeExampleInfo_Language.htm" />
+  <HelpKINode Title="CodeExampleInfo.Output property" Url="html/P_Novacta_Documentation_CodeExamples_CodeExampleInfo_Output.htm" />
+  <HelpKINode Title="CodeExampleInfo.SourceCodePath property" Url="html/P_Novacta_Documentation_CodeExamples_CodeExampleInfo_SourceCodePath.htm" />
+  <HelpKINode Title="CodeExampleInfo.Type property" Url="html/P_Novacta_Documentation_CodeExamples_CodeExampleInfo_Type.htm" />
+  <HelpKINode Title="CodeExamplesAnalyzer class">
+    <HelpKINode Title="CodeExamplesAnalyzer Class" Url="html/T_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CodeExamplesAnalyzer.CodeBase property" Url="html/P_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer_CodeBase.htm" />
+  <HelpKINode Title="CodeExamplesAnalyzer.CodeExamplesAnalyzer constructor" Url="html/M_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer__ctor.htm" />
+  <HelpKINode Title="CodeExamplesAnalyzer.DefaultNamespace property" Url="html/P_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer_DefaultNamespace.htm" />
+  <HelpKINode Title="CodeExamplesAnalyzer.Run method" Url="html/M_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer_Run.htm" />
+  <HelpKINode Title="CommentSymbol property" Url="html/P_Novacta_Documentation_CodeExamples_ProgrammingLanguage_CommentSymbol.htm" />
+  <HelpKINode Title="CSharpLanguage class">
+    <HelpKINode Title="CSharpLanguage Class" Url="html/T_Novacta_Documentation_CodeExamples_CSharpLanguage.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Novacta_Documentation_CodeExamples_CSharpLanguage__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Novacta_Documentation_CodeExamples_CSharpLanguage.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Novacta_Documentation_CodeExamples_CSharpLanguage.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CSharpLanguage.CSharpLanguage constructor" Url="html/M_Novacta_Documentation_CodeExamples_CSharpLanguage__ctor.htm" />
+  <HelpKINode Title="CSharpLanguage.RemoveICodeExampleReferences method" Url="html/M_Novacta_Documentation_CodeExamples_CSharpLanguage_RemoveICodeExampleReferences.htm" />
+  <HelpKINode Title="DefaultNamespace property" Url="html/P_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer_DefaultNamespace.htm" />
+  <HelpKINode Title="Error property" Url="html/P_Novacta_Documentation_CodeExamples_CodeExampleInfo_Error.htm" />
+  <HelpKINode Title="ExitCode property" Url="html/P_Novacta_Documentation_CodeExamples_CodeExampleInfo_ExitCode.htm" />
+  <HelpKINode Title="FileExtension property" Url="html/P_Novacta_Documentation_CodeExamples_ProgrammingLanguage_FileExtension.htm" />
+  <HelpKINode Title="HasSourceCode property" Url="html/P_Novacta_Documentation_CodeExamples_CodeExampleInfo_HasSourceCode.htm" />
+  <HelpKINode Title="ICodeExample interface">
+    <HelpKINode Title="ICodeExample Interface" Url="html/T_Novacta_Documentation_CodeExamples_ICodeExample.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Novacta_Documentation_CodeExamples_ICodeExample.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICodeExample.Main method" Url="html/M_Novacta_Documentation_CodeExamples_ICodeExample_Main.htm" />
+  <HelpKINode Title="IntegerArrayOperation class">
+    <HelpKINode Title="IntegerArrayOperation Class" Url="html/T_SampleClassLibrary_Advanced_IntegerArrayOperation.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SampleClassLibrary_Advanced_IntegerArrayOperation.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IntegerArrayOperation.Operate method" Url="html/M_SampleClassLibrary_Advanced_IntegerArrayOperation_Operate.htm" />
+  <HelpKINode Title="IntegerArrayOperationExample class">
+    <HelpKINode Title="IntegerArrayOperationExample Class" Url="html/T_SampleClassLibrary_CodeExamples_Advanced_IntegerArrayOperationExample.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SampleClassLibrary_CodeExamples_Advanced_IntegerArrayOperationExample__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SampleClassLibrary_CodeExamples_Advanced_IntegerArrayOperationExample.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IntegerArrayOperationExample.IntegerArrayOperationExample constructor" Url="html/M_SampleClassLibrary_CodeExamples_Advanced_IntegerArrayOperationExample__ctor.htm" />
+  <HelpKINode Title="IntegerArrayOperationExample.Main method" Url="html/M_SampleClassLibrary_CodeExamples_Advanced_IntegerArrayOperationExample_Main.htm" />
+  <HelpKINode Title="IntegerOperation class">
+    <HelpKINode Title="IntegerOperation Class" Url="html/T_SampleClassLibrary_IntegerOperation.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SampleClassLibrary_IntegerOperation.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IntegerOperation.Operate method" Url="html/M_SampleClassLibrary_IntegerOperation_Operate.htm" />
+  <HelpKINode Title="IntegerOperationExample class">
+    <HelpKINode Title="IntegerOperationExample Class" Url="html/T_SampleClassLibrary_CodeExamples_IntegerOperationExample.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SampleClassLibrary_CodeExamples_IntegerOperationExample__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SampleClassLibrary_CodeExamples_IntegerOperationExample.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IntegerOperationExample.IntegerOperationExample constructor" Url="html/M_SampleClassLibrary_CodeExamples_IntegerOperationExample__ctor.htm" />
+  <HelpKINode Title="IntegerOperationExample.Main method" Url="html/M_SampleClassLibrary_CodeExamples_IntegerOperationExample_Main.htm" />
+  <HelpKINode Title="Language property" Url="html/P_Novacta_Documentation_CodeExamples_CodeExampleInfo_Language.htm" />
+  <HelpKINode Title="Main method">
+    <HelpKINode Title="ICodeExample.Main Method " Url="html/M_Novacta_Documentation_CodeExamples_ICodeExample_Main.htm" />
+    <HelpKINode Title="IntegerArrayOperationExample.Main Method " Url="html/M_SampleClassLibrary_CodeExamples_Advanced_IntegerArrayOperationExample_Main.htm" />
+    <HelpKINode Title="IntegerOperationExample.Main Method " Url="html/M_SampleClassLibrary_CodeExamples_IntegerOperationExample_Main.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Novacta.Documentation.CodeExamples namespace" Url="html/N_Novacta_Documentation_CodeExamples.htm" />
+  <HelpKINode Title="Novacta.Documentation.CodeExamples.CodeExampleInfo class" Url="html/T_Novacta_Documentation_CodeExamples_CodeExampleInfo.htm" />
+  <HelpKINode Title="Novacta.Documentation.CodeExamples.CodeExamplesAnalyzer class" Url="html/T_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer.htm" />
+  <HelpKINode Title="Novacta.Documentation.CodeExamples.CSharpLanguage class" Url="html/T_Novacta_Documentation_CodeExamples_CSharpLanguage.htm" />
+  <HelpKINode Title="Novacta.Documentation.CodeExamples.ICodeExample interface" Url="html/T_Novacta_Documentation_CodeExamples_ICodeExample.htm" />
+  <HelpKINode Title="Novacta.Documentation.CodeExamples.ProgrammingLanguage class" Url="html/T_Novacta_Documentation_CodeExamples_ProgrammingLanguage.htm" />
+  <HelpKINode Title="Operate method">
+    <HelpKINode Title="IntegerArrayOperation.Operate Method " Url="html/M_SampleClassLibrary_Advanced_IntegerArrayOperation_Operate.htm" />
+    <HelpKINode Title="IntegerOperation.Operate Method " Url="html/M_SampleClassLibrary_IntegerOperation_Operate.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Output property" Url="html/P_Novacta_Documentation_CodeExamples_CodeExampleInfo_Output.htm" />
+  <HelpKINode Title="ProgrammingLanguage class">
+    <HelpKINode Title="ProgrammingLanguage Class" Url="html/T_Novacta_Documentation_CodeExamples_ProgrammingLanguage.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Novacta_Documentation_CodeExamples_ProgrammingLanguage__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Novacta_Documentation_CodeExamples_ProgrammingLanguage.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Novacta_Documentation_CodeExamples_ProgrammingLanguage.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProgrammingLanguage.CommentSymbol property" Url="html/P_Novacta_Documentation_CodeExamples_ProgrammingLanguage_CommentSymbol.htm" />
+  <HelpKINode Title="ProgrammingLanguage.FileExtension property" Url="html/P_Novacta_Documentation_CodeExamples_ProgrammingLanguage_FileExtension.htm" />
+  <HelpKINode Title="ProgrammingLanguage.ProgrammingLanguage constructor" Url="html/M_Novacta_Documentation_CodeExamples_ProgrammingLanguage__ctor.htm" />
+  <HelpKINode Title="ProgrammingLanguage.RemoveICodeExampleReferences method" Url="html/M_Novacta_Documentation_CodeExamples_ProgrammingLanguage_RemoveICodeExampleReferences.htm" />
+  <HelpKINode Title="RemoveICodeExampleReferences method">
+    <HelpKINode Title="CSharpLanguage.RemoveICodeExampleReferences Method " Url="html/M_Novacta_Documentation_CodeExamples_CSharpLanguage_RemoveICodeExampleReferences.htm" />
+    <HelpKINode Title="ProgrammingLanguage.RemoveICodeExampleReferences Method " Url="html/M_Novacta_Documentation_CodeExamples_ProgrammingLanguage_RemoveICodeExampleReferences.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Run method" Url="html/M_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer_Run.htm" />
+  <HelpKINode Title="SampleClassLibrary namespace" Url="html/N_SampleClassLibrary.htm" />
+  <HelpKINode Title="SampleClassLibrary.Advanced namespace" Url="html/N_SampleClassLibrary_Advanced.htm" />
+  <HelpKINode Title="SampleClassLibrary.Advanced.IntegerArrayOperation class" Url="html/T_SampleClassLibrary_Advanced_IntegerArrayOperation.htm" />
+  <HelpKINode Title="SampleClassLibrary.CodeExamples namespace" Url="html/N_SampleClassLibrary_CodeExamples.htm" />
+  <HelpKINode Title="SampleClassLibrary.CodeExamples.Advanced namespace" Url="html/N_SampleClassLibrary_CodeExamples_Advanced.htm" />
+  <HelpKINode Title="SampleClassLibrary.CodeExamples.Advanced.IntegerArrayOperationExample class" Url="html/T_SampleClassLibrary_CodeExamples_Advanced_IntegerArrayOperationExample.htm" />
+  <HelpKINode Title="SampleClassLibrary.CodeExamples.IntegerOperationExample class" Url="html/T_SampleClassLibrary_CodeExamples_IntegerOperationExample.htm" />
+  <HelpKINode Title="SampleClassLibrary.IntegerOperation class" Url="html/T_SampleClassLibrary_IntegerOperation.htm" />
+  <HelpKINode Title="SourceCodePath property" Url="html/P_Novacta_Documentation_CodeExamples_CodeExampleInfo_SourceCodePath.htm" />
+  <HelpKINode Title="Type property" Url="html/P_Novacta_Documentation_CodeExamples_CodeExampleInfo_Type.htm" />
+  <HelpKINode Title="version">
+    <HelpKINode Title="1.0.0" Url="html/7b6d9d57-9808-4ad2-9ae0-e4399297868b.htm" />
+    <HelpKINode Title="history" Url="html/20fad4a8-5a47-4c4d-b6cf-ece1a11b167e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Welcome" Url="html/5867159b-361b-4138-a5b9-0dec7dc0e363.htm" />
+</HelpKI>
