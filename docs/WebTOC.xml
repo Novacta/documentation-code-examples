@@ -4,13 +4,13 @@
   <HelpTOCNode Title="Welcome" Url="html/5867159b-361b-4138-a5b9-0dec7dc0e363.htm" />
   <HelpTOCNode Title="License agreement" Url="html/0ac093c3-eee0-4598-b3cf-4cde672fc3ce.htm" />
   <HelpTOCNode Title="Tutorial" Url="html/6b796d28-afa6-4b66-9fe7-b29258b921ed.htm" />
-  <HelpTOCNode Id="bfc55475-10d8-41ca-b96f-7d7d2fbd8592" Title="Version History" Url="html/20fad4a8-5a47-4c4d-b6cf-ece1a11b167e.htm">
+  <HelpTOCNode Id="5a5bd46d-d1b1-4a44-8204-88c62367541f" Title="Version History" Url="html/20fad4a8-5a47-4c4d-b6cf-ece1a11b167e.htm">
     <HelpTOCNode Title="Version 1.0.0" Url="html/7b6d9d57-9808-4ad2-9ae0-e4399297868b.htm" />
   </HelpTOCNode>
-  <HelpTOCNode Id="417f12e1-4b20-4125-9683-3de56811f1b4" Title="Novacta.Documentation.CodeExamples" Url="html/N_Novacta_Documentation_CodeExamples.htm">
-    <HelpTOCNode Id="c1935e46-c976-4442-9bae-30cfa431354b" Title="CodeExampleInfo Class" Url="html/T_Novacta_Documentation_CodeExamples_CodeExampleInfo.htm">
+  <HelpTOCNode Id="e3ca93e2-dbf9-4f99-b0df-c455d383dc88" Title="Novacta.Documentation.CodeExamples" Url="html/N_Novacta_Documentation_CodeExamples.htm">
+    <HelpTOCNode Id="e046b60b-e52a-499e-9257-cb6c8a5a9c57" Title="CodeExampleInfo Class" Url="html/T_Novacta_Documentation_CodeExamples_CodeExampleInfo.htm">
       <HelpTOCNode Title="CodeExampleInfo Constructor " Url="html/M_Novacta_Documentation_CodeExamples_CodeExampleInfo__ctor.htm" />
-      <HelpTOCNode Id="a75bef44-dda2-4ca5-a7b1-fa2dfcac0685" Title="CodeExampleInfo Properties" Url="html/Properties_T_Novacta_Documentation_CodeExamples_CodeExampleInfo.htm">
+      <HelpTOCNode Id="3e4e77b9-6273-417a-8b63-6eb30dfc4119" Title="CodeExampleInfo Properties" Url="html/Properties_T_Novacta_Documentation_CodeExamples_CodeExampleInfo.htm">
         <HelpTOCNode Title="Error Property " Url="html/P_Novacta_Documentation_CodeExamples_CodeExampleInfo_Error.htm" />
         <HelpTOCNode Title="ExitCode Property " Url="html/P_Novacta_Documentation_CodeExamples_CodeExampleInfo_ExitCode.htm" />
         <HelpTOCNode Title="HasSourceCode Property " Url="html/P_Novacta_Documentation_CodeExamples_CodeExampleInfo_HasSourceCode.htm" />
@@ -21,67 +21,67 @@
       </HelpTOCNode>
       <HelpTOCNode Title="CodeExampleInfo Methods" Url="html/Methods_T_Novacta_Documentation_CodeExamples_CodeExampleInfo.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="ffc93319-04e1-422e-97d0-5a492716807c" Title="CodeExamplesAnalyzer Class" Url="html/T_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer.htm">
+    <HelpTOCNode Id="112f4c38-65d0-49cb-babd-e715eda8a037" Title="CodeExamplesAnalyzer Class" Url="html/T_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer.htm">
       <HelpTOCNode Title="CodeExamplesAnalyzer Constructor " Url="html/M_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer__ctor.htm" />
-      <HelpTOCNode Id="3522eed2-35d3-4bd1-9d50-ad29f9ce543f" Title="CodeExamplesAnalyzer Properties" Url="html/Properties_T_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer.htm">
+      <HelpTOCNode Id="a77f69aa-96ce-450f-999a-920ef1011b20" Title="CodeExamplesAnalyzer Properties" Url="html/Properties_T_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer.htm">
         <HelpTOCNode Title="CodeBase Property " Url="html/P_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer_CodeBase.htm" />
         <HelpTOCNode Title="DefaultNamespace Property " Url="html/P_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer_DefaultNamespace.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="56791755-b399-462c-a38e-534b10faf9b7" Title="CodeExamplesAnalyzer Methods" Url="html/Methods_T_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer.htm">
+      <HelpTOCNode Id="f5ab1fa5-78d9-4001-9596-d62df216f8d4" Title="CodeExamplesAnalyzer Methods" Url="html/Methods_T_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer.htm">
         <HelpTOCNode Title="Run Method " Url="html/M_Novacta_Documentation_CodeExamples_CodeExamplesAnalyzer_Run.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="98041dab-18a4-49a2-b425-1907d1649bb2" Title="CSharpLanguage Class" Url="html/T_Novacta_Documentation_CodeExamples_CSharpLanguage.htm">
+    <HelpTOCNode Id="26983a2d-adae-46f8-bcd3-3aa5a8452808" Title="CSharpLanguage Class" Url="html/T_Novacta_Documentation_CodeExamples_CSharpLanguage.htm">
       <HelpTOCNode Title="CSharpLanguage Constructor " Url="html/M_Novacta_Documentation_CodeExamples_CSharpLanguage__ctor.htm" />
       <HelpTOCNode Title="CSharpLanguage Properties" Url="html/Properties_T_Novacta_Documentation_CodeExamples_CSharpLanguage.htm" />
-      <HelpTOCNode Id="5402b1f5-e3bf-4c46-b415-c7fb5c2cd9fc" Title="CSharpLanguage Methods" Url="html/Methods_T_Novacta_Documentation_CodeExamples_CSharpLanguage.htm">
+      <HelpTOCNode Id="d69ecc27-53ef-433e-964f-d594f4ae3141" Title="CSharpLanguage Methods" Url="html/Methods_T_Novacta_Documentation_CodeExamples_CSharpLanguage.htm">
         <HelpTOCNode Title="RemoveICodeExampleReferences Method " Url="html/M_Novacta_Documentation_CodeExamples_CSharpLanguage_RemoveICodeExampleReferences.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="03d615d2-5157-4292-8bbf-c7dba8842afc" Title="ICodeExample Interface" Url="html/T_Novacta_Documentation_CodeExamples_ICodeExample.htm">
-      <HelpTOCNode Id="e22571ed-3428-4d88-9bc2-01eeabb352ad" Title="ICodeExample Methods" Url="html/Methods_T_Novacta_Documentation_CodeExamples_ICodeExample.htm">
+    <HelpTOCNode Id="2dc96019-d666-42d3-a7aa-85ed4f99e32e" Title="ICodeExample Interface" Url="html/T_Novacta_Documentation_CodeExamples_ICodeExample.htm">
+      <HelpTOCNode Id="b3a17cf3-0660-4788-a08b-042fb4ed3ea4" Title="ICodeExample Methods" Url="html/Methods_T_Novacta_Documentation_CodeExamples_ICodeExample.htm">
         <HelpTOCNode Title="Main Method " Url="html/M_Novacta_Documentation_CodeExamples_ICodeExample_Main.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="3ee7996c-704e-40d4-90c8-c72804ff8b73" Title="ProgrammingLanguage Class" Url="html/T_Novacta_Documentation_CodeExamples_ProgrammingLanguage.htm">
+    <HelpTOCNode Id="0cac68dc-aad8-47df-970f-1387d9f97a69" Title="ProgrammingLanguage Class" Url="html/T_Novacta_Documentation_CodeExamples_ProgrammingLanguage.htm">
       <HelpTOCNode Title="ProgrammingLanguage Constructor " Url="html/M_Novacta_Documentation_CodeExamples_ProgrammingLanguage__ctor.htm" />
-      <HelpTOCNode Id="96b32c85-e377-4c47-871a-3b0d096127a0" Title="ProgrammingLanguage Properties" Url="html/Properties_T_Novacta_Documentation_CodeExamples_ProgrammingLanguage.htm">
+      <HelpTOCNode Id="97647e1e-1734-4a84-8081-f4c8e5b987a5" Title="ProgrammingLanguage Properties" Url="html/Properties_T_Novacta_Documentation_CodeExamples_ProgrammingLanguage.htm">
         <HelpTOCNode Title="CommentSymbol Property " Url="html/P_Novacta_Documentation_CodeExamples_ProgrammingLanguage_CommentSymbol.htm" />
         <HelpTOCNode Title="FileExtension Property " Url="html/P_Novacta_Documentation_CodeExamples_ProgrammingLanguage_FileExtension.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="1e65302c-7ee5-4c11-9d0d-5414987dcc74" Title="ProgrammingLanguage Methods" Url="html/Methods_T_Novacta_Documentation_CodeExamples_ProgrammingLanguage.htm">
+      <HelpTOCNode Id="051b7c28-ee31-4fe4-aa3a-25ffa07fea14" Title="ProgrammingLanguage Methods" Url="html/Methods_T_Novacta_Documentation_CodeExamples_ProgrammingLanguage.htm">
         <HelpTOCNode Title="RemoveICodeExampleReferences Method " Url="html/M_Novacta_Documentation_CodeExamples_ProgrammingLanguage_RemoveICodeExampleReferences.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="4e3c0c6a-7135-421a-869a-a6ae5b30da1e" Title="SampleClassLibrary Namespaces" Url="html/G_SampleClassLibrary.htm">
-    <HelpTOCNode Id="e24fa7c8-57ba-4f9d-a71f-4cbe313ea165" Title="SampleClassLibrary" Url="html/N_SampleClassLibrary.htm">
-      <HelpTOCNode Id="2026306a-fcfa-4c3f-906f-e998265359ec" Title="IntegerOperation Class" Url="html/T_SampleClassLibrary_IntegerOperation.htm">
-        <HelpTOCNode Id="1afb88b9-cbc1-439d-8dcb-c25c9176530d" Title="IntegerOperation Methods" Url="html/Methods_T_SampleClassLibrary_IntegerOperation.htm">
+  <HelpTOCNode Id="17394d86-e4a2-432d-9759-12b319038adb" Title="SampleClassLibrary Namespaces" Url="html/G_SampleClassLibrary.htm">
+    <HelpTOCNode Id="7d63718d-9a5d-4c15-bca1-da84bffb320c" Title="SampleClassLibrary" Url="html/N_SampleClassLibrary.htm">
+      <HelpTOCNode Id="3176fd82-6973-44b2-bb87-6dd159c49b30" Title="IntegerOperation Class" Url="html/T_SampleClassLibrary_IntegerOperation.htm">
+        <HelpTOCNode Id="34e2471f-100e-45a7-ac82-8f38cf8592fe" Title="IntegerOperation Methods" Url="html/Methods_T_SampleClassLibrary_IntegerOperation.htm">
           <HelpTOCNode Title="Operate Method " Url="html/M_SampleClassLibrary_IntegerOperation_Operate.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="2c3e66ea-0665-4e9f-92ce-a1dfc6ddecac" Title="SampleClassLibrary.Advanced" Url="html/N_SampleClassLibrary_Advanced.htm">
-      <HelpTOCNode Id="ab713329-9941-4e2f-8c39-e7209ab22d12" Title="IntegerArrayOperation Class" Url="html/T_SampleClassLibrary_Advanced_IntegerArrayOperation.htm">
-        <HelpTOCNode Id="356b48b1-f4a0-42e4-9ffd-b9f479cbcd7d" Title="IntegerArrayOperation Methods" Url="html/Methods_T_SampleClassLibrary_Advanced_IntegerArrayOperation.htm">
+    <HelpTOCNode Id="04701f13-e34a-4318-85e7-de9c92f7c6b3" Title="SampleClassLibrary.Advanced" Url="html/N_SampleClassLibrary_Advanced.htm">
+      <HelpTOCNode Id="03cc9529-e0d7-430b-88ff-750e236493c1" Title="IntegerArrayOperation Class" Url="html/T_SampleClassLibrary_Advanced_IntegerArrayOperation.htm">
+        <HelpTOCNode Id="95169222-eda4-4112-b194-c551dcb6dbec" Title="IntegerArrayOperation Methods" Url="html/Methods_T_SampleClassLibrary_Advanced_IntegerArrayOperation.htm">
           <HelpTOCNode Title="Operate Method " Url="html/M_SampleClassLibrary_Advanced_IntegerArrayOperation_Operate.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="c7bb7faa-0197-41b7-915b-ed31966bc829" Title="SampleClassLibrary.CodeExamples Namespaces" Url="html/G_SampleClassLibrary_CodeExamples.htm">
-      <HelpTOCNode Id="506d99e2-78ad-4365-87dc-24ef6666f352" Title="SampleClassLibrary.CodeExamples" Url="html/N_SampleClassLibrary_CodeExamples.htm">
-        <HelpTOCNode Id="71185f34-28d7-4566-9fa3-265b9d4ee5fe" Title="IntegerOperationExample Class" Url="html/T_SampleClassLibrary_CodeExamples_IntegerOperationExample.htm">
+    <HelpTOCNode Id="49252efb-9016-4f64-8ef5-2090cb7cd085" Title="SampleClassLibrary.CodeExamples Namespaces" Url="html/G_SampleClassLibrary_CodeExamples.htm">
+      <HelpTOCNode Id="186d04c7-1e0e-4b0b-80c4-e3c0155abf05" Title="SampleClassLibrary.CodeExamples" Url="html/N_SampleClassLibrary_CodeExamples.htm">
+        <HelpTOCNode Id="54aa0f2a-7a04-4896-aaf2-56793911ffa5" Title="IntegerOperationExample Class" Url="html/T_SampleClassLibrary_CodeExamples_IntegerOperationExample.htm">
           <HelpTOCNode Title="IntegerOperationExample Constructor " Url="html/M_SampleClassLibrary_CodeExamples_IntegerOperationExample__ctor.htm" />
-          <HelpTOCNode Id="0fd23c97-f3c3-4075-9119-04c8c332da07" Title="IntegerOperationExample Methods" Url="html/Methods_T_SampleClassLibrary_CodeExamples_IntegerOperationExample.htm">
+          <HelpTOCNode Id="85284cd7-e264-4626-8d01-b16ada7d29ab" Title="IntegerOperationExample Methods" Url="html/Methods_T_SampleClassLibrary_CodeExamples_IntegerOperationExample.htm">
             <HelpTOCNode Title="Main Method " Url="html/M_SampleClassLibrary_CodeExamples_IntegerOperationExample_Main.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="b6b15228-422a-4989-a570-a3af54eef47e" Title="SampleClassLibrary.CodeExamples.Advanced" Url="html/N_SampleClassLibrary_CodeExamples_Advanced.htm">
-        <HelpTOCNode Id="c2db0168-a41a-4be6-8813-1ceb73e03cef" Title="IntegerArrayOperationExample Class" Url="html/T_SampleClassLibrary_CodeExamples_Advanced_IntegerArrayOperationExample.htm">
+      <HelpTOCNode Id="46267405-c8b9-42ff-83e3-5f90938d8372" Title="SampleClassLibrary.CodeExamples.Advanced" Url="html/N_SampleClassLibrary_CodeExamples_Advanced.htm">
+        <HelpTOCNode Id="de76160d-d8b3-42ca-a110-d13652c393aa" Title="IntegerArrayOperationExample Class" Url="html/T_SampleClassLibrary_CodeExamples_Advanced_IntegerArrayOperationExample.htm">
           <HelpTOCNode Title="IntegerArrayOperationExample Constructor " Url="html/M_SampleClassLibrary_CodeExamples_Advanced_IntegerArrayOperationExample__ctor.htm" />
-          <HelpTOCNode Id="b5a43fc8-2fc5-470f-a53c-70ef0b9db4d9" Title="IntegerArrayOperationExample Methods" Url="html/Methods_T_SampleClassLibrary_CodeExamples_Advanced_IntegerArrayOperationExample.htm">
+          <HelpTOCNode Id="e8642905-38d7-4aab-a9f0-c24658479c6e" Title="IntegerArrayOperationExample Methods" Url="html/Methods_T_SampleClassLibrary_CodeExamples_Advanced_IntegerArrayOperationExample.htm">
             <HelpTOCNode Title="Main Method " Url="html/M_SampleClassLibrary_CodeExamples_Advanced_IntegerArrayOperationExample_Main.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
