@@ -36,13 +36,13 @@
 
             <span class="highlight-comment">// Operate on it</span>
             Console.WriteLine(<span class="highlight-literal">"Squaring {0}..."</span>, integer);
-            <span class="highlight-keyword">int</span> result = IntegerOperation.Operate(square, integer);
+            <span class="highlight-keyword">int</span> result = <span class="highlight-class-name">IntegerOperation</span>.Operate(square, integer);
             Console.WriteLine(<span class="highlight-literal">"...the result is {0}."</span>, result);
 
             <span class="highlight-comment">// Check that an operator cannot be null</span>
             <span class="highlight-keyword">try</span>
             {
-                IntegerOperation.Operate(<span class="highlight-keyword">null</span>, <span class="highlight-number">0</span>);
+                <span class="highlight-class-name">IntegerOperation</span>.Operate(<span class="highlight-keyword">null</span>, <span class="highlight-number">0</span>);
             }
             <span class="highlight-keyword">catch</span> (Exception e)
             {

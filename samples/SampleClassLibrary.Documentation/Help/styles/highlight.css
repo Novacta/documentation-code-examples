@@ -26,3 +26,4 @@
 .highlight-endblock { border-left-style: solid; border-left-width: 1px; border-bottom-style: solid; border-bottom-width: 1px; border-color: gray; margin-left: 2px; margin-right: 10px; }
 .highlight-pshell-cmdlet { color: #5A9EA5; font-weight: bold; }
 .highlight-namespace { color: #008284; }
+.highlight-class-name { color: #4169E1; }

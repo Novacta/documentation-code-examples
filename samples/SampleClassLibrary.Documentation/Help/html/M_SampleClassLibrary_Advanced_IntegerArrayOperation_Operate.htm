@@ -39,7 +39,7 @@
             <span class="highlight-keyword">int</span>[] operands = <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[<span class="highlight-number">3</span>] { <span class="highlight-number">2</span>, <span class="highlight-number">4</span>, <span class="highlight-number">8</span> };
 
             <span class="highlight-comment">// Operate on it</span>
-            <span class="highlight-keyword">int</span>[] results = IntegerArrayOperation.Operate(square, operands);
+            <span class="highlight-keyword">int</span>[] results = <span class="highlight-class-name">IntegerArrayOperation</span>.Operate(square, operands);
 
             <span class="highlight-comment">// Show results</span>
             <span class="highlight-keyword">for</span> (<span class="highlight-keyword">int</span> i = <span class="highlight-number">0</span>; i &lt; results.Length; i++)
@@ -53,7 +53,7 @@
             <span class="highlight-comment">// Check that an operator cannot be null</span>
             <span class="highlight-keyword">try</span>
             {
-                IntegerArrayOperation.Operate(<span class="highlight-keyword">null</span>, <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[<span class="highlight-number">1</span>]);
+                <span class="highlight-class-name">IntegerArrayOperation</span>.Operate(<span class="highlight-keyword">null</span>, <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[<span class="highlight-number">1</span>]);
             }
             <span class="highlight-keyword">catch</span> (Exception e)
             {
@@ -65,7 +65,7 @@
             <span class="highlight-comment">// Check that an array of operands cannot be null</span>
             <span class="highlight-keyword">try</span>
             {
-                IntegerArrayOperation.Operate(square, <span class="highlight-keyword">null</span>);
+                <span class="highlight-class-name">IntegerArrayOperation</span>.Operate(square, <span class="highlight-keyword">null</span>);
             }
             <span class="highlight-keyword">catch</span> (Exception e)
             {

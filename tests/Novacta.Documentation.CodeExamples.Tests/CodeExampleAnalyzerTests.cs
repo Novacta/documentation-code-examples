@@ -6,6 +6,7 @@ using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
 using Novacta.Documentation.CodeExamples.Tests.Tools;
+using System.Runtime.InteropServices;
 
 namespace Novacta.Documentation.CodeExamples.Tests
 {
@@ -56,6 +57,15 @@ namespace Novacta.Documentation.CodeExamples.Tests
         {
             // Wrong code base
             {
+                string expectedPartialMessage =
+                    RuntimeInformation.IsOSPlatform(OSPlatform.Windows)
+                    ?
+                        "The specified directory does not exist or an error occurred when " +
+                            "trying to determine if the specified folder exists. "
+                    :
+                        "The specified directory does not exist or an error occurred when " +
+                        "trying to determine if the specified folder exists.";
+
                 ArgumentExceptionAssert.IsThrown(
                     () =>
                     {

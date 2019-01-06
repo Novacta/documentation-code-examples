@@ -41,8 +41,8 @@ namespace Novacta.Documentation.CodeExamples.Tests.Tools
             string expectedParameterName
             )
         {
-            var expectedMessage = expectedPartialMessage + 
-                "\r\nParameter name: " + expectedParameterName;
+            var expectedMessage = expectedPartialMessage +
+                Environment.NewLine + "Parameter name: " + expectedParameterName;
             bool isThrown = false;
             string actualMessage = null;
             Type actualType = null;
